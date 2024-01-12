@@ -1,0 +1,60 @@
+.main{
+    background-color: #006837 !important;
+    border-bottom: 1px solid rgb(156, 147, 147);
+}
+.contact  {
+    padding: 20px 0;
+}
+.contact a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+.contact a i{
+    animation-name: trin;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes trin {
+
+    from {
+        transform:rotate3d(0, 0, 1, 0deg);
+    }
+    20%, 32%, 44%, 56%, 68% {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+    23%, 35%, 47%, 59%, 71% {
+        transform: rotate3d(0,0,1,15deg);
+    }
+    26%, 38%, 50%, 62%, 74% {
+        transform: rotate3d(0,0,1,0deg);
+    }
+    29%, 41%, 53%, 65%, 77% {
+        transform: rotate3d(0,0,1,-15deg);
+    }
+    80% {
+        transform:rotate3d(0, 0, 1, 0deg);
+    }
+
+}
+
+.banner{
+    --bs-gutter-x: 0;
+}
+.d_text{
+    background-color: bisque;
+}
+
+.details{
+    padding: 100px 40px;
+}
+.details p{
+    font-family: "Tiro Bangla", serif;
+    font-weight: 5s00;
+    font-style: normal;
+    font-size: 21px;
+    text-align: justify;
+}
